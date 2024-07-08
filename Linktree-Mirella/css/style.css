@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+html, css {
+    height: 100%;
+}
+
+body{
+    font-family:"Raleway", sans-serif;
+    color: rgb(85, 85, 85);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 2px solid white;
+    box-shadow: 0 0 5px white;
+
+}
+
+.profile {
+    text-align: center;
+}
+
+h1 {
+    font-family:"Architects Daughter", cursive;
+    font-weight: 15;
+    margin-bottom: 2px;
+    font-size: 24px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.social-icons img {
+    width: 33px;
+}
+
+.social-icons {
+    display: flex; /*Posicionar imagens do lado*/
+    justify-content:space-around;     /* center; /* posicionar no centro, funciona somente com display flex*/
+    list-style: none; /* tirar as bolinhas da lista*/
+    margin: 10px 0 ;
+}
+
+
+.texto-logo img {
+    width: 33px;
+    padding: 0px 5px;
+}
+
+.texto-logo li {
+    margin: 10px 20px;
+    list-style: none;
+   
+}
+
+.texto-logo li a {
+    display: flex;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none; /* remover linha de links*/
+    color:rgb(2, 2, 2);
+    font-weight: bold;  /*expessura da fonte*/
+}
+
+.texto-logo li a span {
+    color: grey;
+    display: block;
+    margin-top: 10px;
+}
+
+.list-links li {
+    margin: 10px 20px;
+    list-style: none;
+}
+
+.list-links li a {
+    display: block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none; /* remover linha de links*/
+    color: rgb(238,174,202);
+    font-weight: bold;  /*expessura da fonte*/
+}
+
+.list-links li a span {
+    color: grey;
+    display: block;
+    margin-top: 10px;
+}
